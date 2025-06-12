@@ -1,0 +1,2 @@
+ - When the life stops
+ - Something happens idk
