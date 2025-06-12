@@ -1,0 +1,31 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+#tabs {
+  background: #333;
+  padding: 10px;
+}
+#tabs button {
+  color: white;
+  background: transparent;
+  border: none;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.tab {
+  display: none;
+  padding: 10px;
+}
+.tab.active {
+  display: block;
+}
+#spriteCanvas {
+  border: 1px solid #000;
+}
+#exportBtn {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}

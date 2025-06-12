@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WebDev Engine</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav id="tabs">
+    <button data-tab="manualTab">Manual</button>
+    <button data-tab="spritesTab">Sprites</button>
+    <button data-tab="writingTab">Writing</button>
+  </nav>
+  <section id="manualTab" class="tab active">
+    <h1>Manual</h1>
+    <p>This is the manual for the WebDev engine. Describe your custom commands and how to use them here.</p>
+  </section>
+  <section id="spritesTab" class="tab">
+    <h1>Sprites</h1>
+    <canvas id="spriteCanvas" width="128" height="128"></canvas>
+    <div>
+      <label for="colorPicker">Color:</label>
+      <input type="color" id="colorPicker" value="#000000">
+    </div>
+  </section>
+  <section id="writingTab" class="tab">
+    <h1>Writing</h1>
+    <textarea id="codeArea" rows="10" cols="50" placeholder="Write your code here"></textarea>
+  </section>
+  <button id="exportBtn">Export to JS</button>
+  <script src="script.js"></script>
+</body>
+</html>
